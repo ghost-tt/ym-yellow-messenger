@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="col-md-12 flex justify-center">
+        <div class="card mb-4 box-shadow bg-grey border-r-5 m-up-down-1">
+            <div class="card-body">
+                <div class="flex mb-2">
+                    <img id="img-account" class="rounded-circle" src="./assets/img/user.png" alt="Generic placeholder image" width="32" height="32">
+                    <p class="card-text flex vertical-center ml-2 text-fw5" id="accountTitle"></p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div id="fund-status"></div>
+                    <div>   
+                        <div>
+                            <p class="text-g text-center">Sip Amount</p>
+                            <div class="flex vertical-center">
+                                <p class="text-b-dark-grey m-0" id="sip-amount"></p> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="text-g text-center">3Y return</p>
+                            <div class="flex vertical-center">
+                                <p class="text-b-dark-grey text-center m-0" id="3y-return"></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center float-right mt-1">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Replace</button>
+                </div>
+            </div>
+            <hr />
+            <div class="card-body">
+                <div class="flex mb-2">
+                    <img id="img-account-compare" class="rounded-circle" src="./assets/img/user.png" alt="Generic placeholder image" width="32" height="32">
+                    <p class="card-text flex vertical-center ml-2 text-fw5" id="accountCompareTitle">
+                        
+                    </p>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                    <div id="fund-compare-status"></div>
+                    <div>   
+                        <div>
+                            <p class="text-g text-center">Sip Amount</p>
+                            <div class="flex vertical-center">
+                                <p class="text-b-dark-grey text-center m-0" id="sip-compare-amount"></p> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="text-g text-center">3Y return</p>
+                            <div class="flex vertical-center">
+                                <p class="text-b-dark-grey m-0" id="3y-compare-return"></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center float-right mt-1">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Replace</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
