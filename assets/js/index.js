@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-    $("#img-account").attr("src","/assets/img/user.png");
-    $("#img-account-compare").attr("src","/assets/img/user-compare.png");
+    $("#img-account").attr("src","./assets/img/user.png");
+    $("#img-account-compare").attr("src","./assets/img/user-compare.png");
 
     $('#accountTitle').text('Tata liquid fund - Regular (G)');
     $('#accountCompareTitle').text('Nippon India Arbitrage fund (G)');
